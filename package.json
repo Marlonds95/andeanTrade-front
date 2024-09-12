@@ -1,0 +1,57 @@
+{
+  "name": "wibe-test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fontsource/kaushan-script": "^4.5.2",
+    "@fontsource/sirin-stencil": "^4.5.2",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "framer-motion": "^6.5.1",
+    "gsap": "^3.12.5",
+    "locomotive-scroll": "^4.1.4",
+    "mysql": "^2.18.1",
+    "normalize.css": "^8.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-locomotive-scroll": "^0.2.0",
+    "react-router-dom": "^6.2.2",
+    "react-scripts": "5.0.0",
+    "scrolltrigger": "^1.0.1",
+    "styled-components": "^5.3.11",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "![GitHub stars](https://img.shields.io/github/stars/codebucks27/wibe-studio-starter-files?style=social&logo=ApacheSpark&label=Stars)&nbsp;&nbsp;\r ![GitHub forks](https://img.shields.io/github/forks/codebucks27/wibe-studio-starter-files?style=social&logo=KashFlow&&label=Forks)&nbsp;&nbsp;\r ![Github Followers](https://img.shields.io/github/followers/codebucks27.svg?style=social&label=Follow)&nbsp;&nbsp;<br />",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
