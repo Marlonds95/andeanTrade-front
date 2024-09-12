@@ -19,10 +19,10 @@ const Section = styled.section`
 
 const Left = styled.div`
   width: 50%;
-  margin-top: 5%; /* Ajusta el margen superior */
+  margin-top: 5%; 
   
   @media (max-width: 64em) {
-    width: 100%; /* Ocupa todo el ancho en pantallas medianas y pequeñas */
+    width: 100%; 
     margin-top: 2rem; 
     padding: 2rem;
     backdrop-filter: blur(2px);
@@ -31,7 +31,7 @@ const Left = styled.div`
   }
 
   @media (max-width: 30em) {
-    width: 100%; /* Ajuste completo para pantallas pequeñas */
+    width: 100%;
     padding: 1.5rem;
   }
 `;
@@ -42,10 +42,10 @@ const Title = styled.h1`
   text-align: center;
 
   @media (max-width: 64em) {
-    font-size: 2rem; /* Ajuste para pantallas medianas */
+    font-size: 2rem; 
   }
   @media (max-width: 48em) {
-    font-size: 1.75rem; /* Más pequeño para móviles */
+    font-size: 1.75rem; 
   }
 `;
 
@@ -60,7 +60,7 @@ const Form = styled.form`
     font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 100%; /* Asegura que los inputs ocupen todo el ancho */
+    width: 100%; 
   }
 
   textarea {
@@ -69,7 +69,7 @@ const Form = styled.form`
 
   button {
     padding: 0.75rem;
-    background-color: #000; /* Color del botón */
+    background-color: #000; 
     color: white;
     border: none;
     border-radius: 5px;
@@ -77,14 +77,14 @@ const Form = styled.form`
     font-size: 1rem;
 
     &:hover {
-      background-color: #007bff; /* Color al hacer hover */
+      background-color: #007bff; 
     }
 
     @media (max-width: 64em) {
       font-size: 1rem;
     }
     @media (max-width: 48em) {
-      font-size: 0.875rem; /* Ajuste para pantallas pequeñas */
+      font-size: 0.875rem; 
     }
   }
 `;
@@ -96,7 +96,7 @@ const Contact = () => {
     message: "",
   });
 
-  // Maneja cambios en el formulario
+  
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
@@ -105,7 +105,7 @@ const Contact = () => {
     }));
   };
 
-  // Maneja el envío del formulario
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
