@@ -11,10 +11,10 @@ app.use(bodyParser.json());
 
 // Conexión a la base de datos MySQL
 const db = mysql.createConnection({
-  host: 'localhost', // o el host donde está tu servidor MySQL
-  user: 'root', // tu usuario de MySQL
-  password: '', // tu contraseña de MySQL
-  database: 'reparacionesdb' // tu base de datos
+  host: 'localhost', 
+  user: 'root', 
+  password: '', 
+  database: 'reparacionesdb' 
 });
 
 db.connect((err) => {
@@ -29,7 +29,7 @@ db.connect((err) => {
 app.post('/api/contact', (req, res) => {
   const { name, email, message } = req.body;
 
-  // Consulta para insertar los datos en la base de datos
+  // Consulta para insertar los datos en la base 
   const query = 'INSERT INTO contactos (nombre, correo, mensaje) VALUES (?, ?, ?)';
   db.query(query, [name, email, message], (err, result) => {
     if (err) {
